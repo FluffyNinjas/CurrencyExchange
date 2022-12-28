@@ -31,6 +31,7 @@ public abstract class Currency implements Exchangable{
             System.out.println(this.getClass().getSimpleName()+" has a total of $"+df.format(this.totalFunds)+" "+this.currencyName);
             System.out.println(other.getClass().getSimpleName()+" has a total of $"+df.format(other.totalFunds)+" "+other.currencyName);
             System.out.println("");
+            System.out.println("raa");
 
         }
 
